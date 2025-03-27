@@ -1,3 +1,4 @@
+import Login from "./pages/login"
 import Signup from "./pages/signup"
 import {Routes ,Route} from 'react-router-dom'
 
@@ -9,6 +10,7 @@ function App() {
         <Route path=
           "/" element={<Signup />
 }></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
         
       </Routes>
     </>
